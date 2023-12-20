@@ -1,0 +1,368 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:#053040 ;
+    height: 75px;
+    width: auto;
+    display: flex;
+    
+}
+.logo{
+    color: white;
+    padding-right: 600px;
+    padding-left:45px;
+    font-size:  25px;;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-top:13px ;
+    padding-left: 70px;
+    padding: right 50px; ;
+    margin-left:0px;
+
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px ;
+    
+}
+
+.b {
+    margin-left: 500px;
+    margin-top: 250px;
+    position: relative;
+    height:15px;
+   padding:20PX;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 280px;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+  
+  .b span {
+    position: relative;
+    color: #fff;
+    fot-size: 20px;
+    font-family: Arial;
+    letter-spacing: 8px;
+    z-index: 1;
+    padding-left:15px ;
+  }
+  
+  .b .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 400px;
+    height: 200px;
+    background: #4973ff;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+  }
+  
+  .b .liquid::after,
+  .b .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #053040 ;
+  }
+  
+  .b .liquid::before {
+    
+    border-radius: 45%;
+    background: #053040 ;
+    animation: animate 5s linear infinite;
+  }
+  
+  .b .liquid::after {
+    
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+  }
+  
+  .b:hover .liquid{
+    top: -120px;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }
+.fon {
+    height: 500px;
+    background-image:url(sagui\ porto.png);
+    background-size:800px;
+    background-repeat: no-repeat;
+    background-position-x:250px;
+    padding-top:220px;
+
+}
+.graphiste{
+ font-size:50px;
+ text-decoration: none;
+ padding-left:150px ;
+ padding-right: 500px;
+ margin-top:18px;
+
+ color:#053040 ;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.front{
+ font-size:50px;
+ text-decoration: none;
+ color:#053040 ;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.para{
+    display: flex;
+    font-size: 20px;
+}
+.pgraph{    
+ color:#053040 ;
+ padding-left:35px;
+}
+.pfront{
+ color:#053040 ;
+ padding-left:410px;
+}
+.form{
+    height:2500px;
+    width: auto;
+    background-color: #053040 ;;
+}
+#ABOUT{
+    color:white;
+    display: flex;
+    font-size:25px;
+    height: 500px;
+    width: 1000px;
+    margin-left: 200px;
+    align-items: center;
+}
+#ABOUT:hover{
+    color:white;
+    display: flex;
+    font-size:25px;
+    background-color:#71c0f534 ;
+    height: 500px;
+    width: 1000px;
+    margin-left: 200px;
+    align-items: center;
+    background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 8deg);
+  
+}
+.aboutphoto{
+    height: 450px;
+    padding-right: 75px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.propos{
+    color: rgba(255, 255, 255, 0.041);
+    padding-left:25px;
+    padding-top:70px;
+    
+}
+.SKILLS{
+    width: 500px;
+    background-color: #ffffff;
+  }
+  
+  #SKILLS .SKILLS{
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    color: white;
+    
+  }
+  
+  .html {width: 85%; background-color: #ff9900;} 
+  .css {width: 70%; background-color: #2196F3;} 
+  .js {width: 35%; background-color: #e7f436;} 
+  .ps {width: 85%; background-color: #0379ff;} 
+  .ai {width: 78%; background-color: #fcce00;} 
+  
+  .titre{
+    color: white;
+  }
+ 
+  .kill{
+    height: 700px;
+    padding-left: 450px;
+    padding-top:50px;
+    background-color:#ffffff04 ;
+  }
+  .kill:hover{
+
+    background-color:#71c0f534 ;
+    height: 700px;;
+    padding-left: 450px;
+    padding-top:50px;
+    background-position: -100px 100px, -100px 100px;
+  }
+  .textskill{
+    color: #fff;
+    padding-right: 370px;
+    font-size:18px;
+  }
+.propos1{
+  color: rgba(255, 255, 255, 0.041);
+  padding-left:25px;
+  padding-top:0px;
+}
+.propos3{
+  color: rgba(0, 0, 0, 0.082);
+  padding-left:25px;
+  padding-top:0px;
+  padding-top:15px;
+}
+#SERVICES{
+  height: 600px;
+  width: auto;
+  background-image:url(fondsite.jpg);
+  color: black;
+}
+.lesservices{
+  display: flex;
+  height: 450px;
+  background-color: #ffffff00;
+}
+
+.c {
+  margin-left: 75px;
+  margin-top: 20px;
+  position: relative;
+  height: 250px;
+ padding:20PX;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 50px;
+  padding-top:150px;
+
+}
+
+.c span {
+  position: relative;
+  color: #fff;
+  fot-size: 20px;
+  font-family: Arial;
+  letter-spacing: 4px;
+  z-index: 1;
+  text-align:;
+  margin:75px;
+  margin-top:175 ;
+  padding-top:75px;
+  
+}
+
+.c .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 400px;
+  height: 600px;
+  background: #4973ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+  transition: .5s;
+}
+
+.c .liquid::after,
+.c .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #053040 ;
+}
+
+.c .liquid::before {
+  
+  border-radius: 45%;
+  background: #053040 ;
+  animation: animate 5s linear infinite;
+}
+
+.c .liquid::after {
+  
+  border-radius: 40%;
+  background: rgba(20, 20, 20, .5);
+  animation: animate 10s linear infinite;
+}
+
+.c:hover .liquid{
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+.propos4{
+  color: rgba(0, 0, 0, 0.144);
+  padding-left:25px;
+  padding-top:0px;
+  padding-top:15px;
+}
+#CONTACT{
+  height:460px;
+    background-color: #fff;
+}
+.contactbox{
+  display: flex;
+  height: 200px;
+  width: 600px;
+  padding-top:150px;
+
+}
+.logocontact{
+  display: flex;
+  height: 50px;
+  width: auto;
+  padding-left:50px;
+  padding-top:0px;
+  
+}
+.icon{
+  display:flex;
+  padding-left:75px;
+}
+.icon1{
+  padding-top:-55px;
+  padding-left:75px;
+  font-size:20px;
+}
